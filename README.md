@@ -13,6 +13,7 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
 ## 💻 Logiciels & Prérequis
 
 * **Serveur local :** [XAMPP](https://www.apachefriends.org/fr/index.html) (Apache & MySQL)
+* **Le ficher RAR :** Extraire le contenue du RAR sur le bureau
 * **IDE :** Arduino IDE (v2.x recommandée)
 * **Bibliothèques Arduino :**
   * `UIPEthernet` (ou `Ethernet` selon le shield)
