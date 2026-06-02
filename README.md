@@ -26,7 +26,7 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
 
 1. Installer et executer **XAMPP** et démarrer les modules **Apache** et **MySQL**
 
-<img src="image/1.png" alt="Interface de l'IDE Arduino" width="500">
+<img src="images/1.png" alt="Interface de l'IDE Arduino" width="500">
 
 2. Ouvrir le navigateur et aller sur `http://localhost/phpmyadmin/`.
 3. Créer une base de données nommée `arduino_projet`.
