@@ -35,6 +35,8 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
    * `valeur` : INT.
    * `date_heure` : TIMESTAMP (Valeur par défaut : CURRENT_TIMESTAMP).
 
+  <img src="images/2.png" alt="Interface de l'IDE Arduino" width="500">
+
 ---
 
 ## 🌐 2. Configuration du Serveur Web (PHP)
