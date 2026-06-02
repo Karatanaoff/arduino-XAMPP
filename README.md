@@ -43,6 +43,8 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
 
 Dans le dossier `C:\xampp\htdocs\`, placer les deux fichiers suivants :
 
+<img src="images/3.png" alt="Interface de l'IDE Arduino" width="500">
+
 ### A. `sauvegarder.php` (L'API de réception)
 Ce script est appelé par l'Arduino pour insérer les données dans la base.
 *(Penser à y configurer les identifiants de la base de données : `$utilisateur = "root"`, `$mot_de_passe = "ton_mot_de_passe"`).*
@@ -54,7 +56,6 @@ Interface publique affichant :
 * Un tableau d'historique des 20 dernières mesures.
 * *Fonctionnalité : Auto-refresh toutes les 5 secondes.*
 
-<img src="images/3.png" alt="Interface de l'IDE Arduino" width="500">
 ---
 
 ## 🔌 3. Câblage de l'Arduino
