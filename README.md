@@ -23,7 +23,7 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
 
 ## ⚙️ 1. Configuration de la Base de Données (MySQL)
 
-1. Lancer **XAMPP** et démarrer les modules **Apache** et **MySQL**.
+1. Installer et executer **XAMPP** et démarrer les modules **Apache** et **MySQL**.
 2. Ouvrir le navigateur et aller sur `http://localhost/phpmyadmin/`.
 3. Créer une base de données nommée `arduino_projet`.
 4. Créer une table nommée `mesures` avec les colonnes suivantes :
