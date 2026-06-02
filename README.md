@@ -75,4 +75,4 @@ Interface publique affichant :
    IPAddress server(192, 168, X, X); // Remplacer par l'IP locale du PC
 
 
-## 🚀 5. La sécurité du serveur
+## ⚙️ 5. La sécurité du serveur
