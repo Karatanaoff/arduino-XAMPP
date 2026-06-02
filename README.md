@@ -75,4 +75,15 @@ Interface publique affichant :
    IPAddress server(192, 168, X, X); // Remplacer par l'IP locale du PC
 
 
-## ⚙️ 5. La sécurité du serveur
+## 🔒 5. Sécurisation du Système (Mots de passe)
+
+Pour éviter que n'importe qui puisse modifier la base de données ou accéder au tableau de bord, deux niveaux de sécurité ont été mis en place.
+
+### A. Sécuriser l'accès à phpMyAdmin (Base de données)
+Par défaut sous XAMPP, l'utilisateur `root` n'a pas de mot de passe. Pour en définir un :
+1. Aller dans **phpMyAdmin** > Onglet **Comptes utilisateurs**.
+2. Sur la ligne de l'utilisateur `root` (localhost), cliquer sur **Modifier les privilèges** puis sur **Modifier le mot de passe**.
+3. Saisir le nouveau mot de passe et valider.
+4. **Important :** Mettre à jour ce nouveau mot de passe dans les fichiers PHP (`sauvegarder.php` et `index.php`) à la ligne de connexion :
+   ```php
+   $mot_de_passe = "nouveau_mot_de_passe";
