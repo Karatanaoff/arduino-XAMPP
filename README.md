@@ -73,3 +73,6 @@ Interface publique affichant :
 1. Une fois l'IDE installé, dans le code source Arduino (`arduino_client.ino`), modifier l'adresse IP du serveur XAMPP pour qu'elle corresponde à celle de la machine hôte :
    ```cpp
    IPAddress server(192, 168, X, X); // Remplacer par l'IP locale du PC
+``
+
+## 🚀 5. La sécurité du serveur
