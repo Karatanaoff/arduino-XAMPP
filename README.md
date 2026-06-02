@@ -54,6 +54,7 @@ Interface publique affichant :
 * Un tableau d'historique des 20 dernières mesures.
 * *Fonctionnalité : Auto-refresh toutes les 5 secondes.*
 
+<img src="images/3.png" alt="Interface de l'IDE Arduino" width="500">
 ---
 
 ## 🔌 3. Câblage de l'Arduino
