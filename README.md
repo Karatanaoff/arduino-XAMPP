@@ -1,13 +1,13 @@
-# 🌍 Station Météo Arduino & Dashboard Web (IoT)
+# 🌍 Utilisation d'un Arduino pour envoyer des données dans une DB (Data Base) en tant que client (IoT)
 
-Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il permet à un Arduino Nano de lire la température d'une pièce via un capteur DS18B20, de l'envoyer sur le réseau local via un shield Ethernet, et d'afficher les données en temps réel sur un tableau de bord web (avec graphique et historique).
+Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il permet à un Arduino Nano de lire la température d'une pièce via un capteur DS18B20, de l'envoyer sur le réseau local via un shield Ethernet, et d'afficher les données en temps réel sur un tableau de bord web (avec graphique et historique) en passant par une Data Base.
 
 ## 🛠️ Matériel Requis
 
 * **Microcontrôleur :** Arduino Nano
 * **Réseau :** Module Ethernet (ex: ENC28J60)
 * **Capteur :** DS18B20 (Capteur de température numérique)
-* **Composant :** Résistance de 4.7 kΩ (Uniquement si le capteur est "nu", inutile si c'est un module KY-001)
+* **Composant :** Résistance de 4.7 kΩ 
 * **Câblage :** Câble RJ45, Câble USB (branché à l'arrière du PC pour une alimentation stable)
 
 ## 💻 Logiciels & Prérequis
