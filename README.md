@@ -56,7 +56,7 @@ Interface publique affichant :
 | :--- | :--- | :--- |
 | **GND** (-) | GND | |
 | **VCC** (+) | 5V | |
-| **DATA** (Signal) | D2 | Placer une résistance 4.7kΩ entre VCC et DATA |
+| **DATA** (Signal) | D5 | Placer une résistance 4.7kΩ entre VCC et DATA |
 
 ---
 
