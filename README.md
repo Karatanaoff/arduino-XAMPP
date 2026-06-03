@@ -87,3 +87,6 @@ Par défaut sous XAMPP, l'utilisateur `root` n'a pas de mot de passe. Pour en d�
 4. **Important :** Mettre à jour ce nouveau mot de passe dans les fichiers PHP (`sauvegarder.php` et `index.php`) à la ligne de connexion :
    ```php
    $mot_de_passe = "nouveau_mot_de_passe";
+A la fin, vous vous retrouverez avec sa :
+
+<img src="images/4.png" alt="Interface de l'IDE Arduino" width="500">
