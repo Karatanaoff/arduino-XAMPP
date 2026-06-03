@@ -82,7 +82,7 @@ Pour éviter que n'importe qui puisse modifier la base de données ou accéder a
 ### A. Sécuriser l'accès à phpMyAdmin (Base de données)
 Par défaut sous XAMPP, l'utilisateur `root` n'a pas de mot de passe. Pour en définir un :
 1. Aller dans **phpMyAdmin** > Onglet **Comptes utilisateurs**.
-2. Sur la ligne de l'utilisateur `root` (localhost), cliquer sur **Modifier les privilèges** puis sur **Modifier le mot de passe**.
+2. Sur la ligne de l'utilisateur `root` (localhost), cliquer sur **Modifier les privilèges** puis sur **Modifier le mot de passe**. (en changeant votre mot de passe, vous allez perdre accès a votre phpMyAdmin, avec un code d'erreur, mais pour régler sa, aller dans votre répértoire XAMPP et dans phpMyAdmin, une fois dedans, ouvrer le ficher **config.inc.php** et taper votre mot de passe sur la ligne 21, sauvegarder et vous serez de retour sur la page phpMyAdmin)
 3. Saisir le nouveau mot de passe et valider.
 4. **Important :** Mettre à jour ce nouveau mot de passe dans les fichiers PHP (`sauvegarder.php` et `index.php`) à la ligne de connexion :
    ```php
