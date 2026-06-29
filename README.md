@@ -1,8 +1,8 @@
-# 🌍 Utilisation d'un Arduino pour envoyer des données dans une DB (Data Base) en tant que client (IoT)
+#  Utilisation d'un Arduino pour envoyer des données dans une DB (Data Base) en tant que client (IoT)
 
 Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il permet à un Arduino Nano de lire la température d'une pièce via un capteur DS18B20, de l'envoyer sur le réseau local via un shield Ethernet, et d'afficher les données en temps réel sur un tableau de bord web (avec graphique et historique) en passant par une Data Base.
 
-## 🛠️ Matériel Requis
+## Matériel Requis
 
 * **Microcontrôleur :** Arduino Nano
 * **Réseau :** Module Ethernet (ex: ENC28J60)
@@ -10,7 +10,7 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
 * **Composant :** Résistance de 4.7 kΩ 
 * **Câblage :** Câble RJ45, Câble USB (branché à l'arrière du PC pour une alimentation stable)
 
-## 💻 Logiciels & Prérequis
+## Logiciels & Prérequis
 
 * **Serveur local :** [XAMPP](https://www.apachefriends.org/fr/index.html) (Apache & MySQL)
 * **Le ficher RAR :** Extraire le contenue du RAR sur le bureau
@@ -22,7 +22,7 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
 
 ---
 
-## ⚙️ 1. Configuration de la Base de Données (MySQL)
+## 1. Configuration de la Base de Données (MySQL)
 
 1. Installer et executer **XAMPP** et démarrer les modules **Apache** et **MySQL**
 
@@ -39,7 +39,7 @@ Ce projet est un système IoT (Internet of Things) complet de bout en bout. Il p
 
 ---
 
-## 🌐 2. Configuration du Serveur Web (PHP)
+## 2. Configuration du Serveur Web (PHP)
 
 Dans le dossier `C:\xampp\htdocs\`, placer les deux fichiers suivants :
 
@@ -58,7 +58,7 @@ Interface publique affichant :
 
 ---
 
-## 🔌 3. Câblage de l'Arduino
+## 3. Câblage de l'Arduino
 
 | Capteur DS18B20 | Arduino Nano | Remarque |
 | :--- | :--- | :--- |
@@ -68,14 +68,14 @@ Interface publique affichant :
 
 ---
 
-## 🚀 4. Configuration et Déploiement
+## 4. Configuration et Déploiement
 
 1. Une fois l'IDE installé, dans le code source Arduino (`arduino_client.ino`), modifier l'adresse IP du serveur XAMPP pour qu'elle corresponde à celle de la machine hôte :
    ```cpp
    IPAddress server(192, 168, X, X); // Remplacer par l'IP locale du PC
 
 
-## 🔒 5. Sécurisation du Système (Mots de passe)
+## 5. Sécurisation du Système (Mots de passe)
 
 Pour éviter que n'importe qui puisse modifier la base de données ou accéder au tableau de bord, deux niveaux de sécurité ont été mis en place.
 
